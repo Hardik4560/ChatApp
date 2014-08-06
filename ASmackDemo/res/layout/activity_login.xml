@@ -6,6 +6,25 @@
     android:padding="10dp" >
 
     <EditText
+        android:id="@+id/edtHost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="host"
+        android:scrollHorizontally="true" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtPort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="port"
+        android:layout_marginBottom="10dp"
+        android:scrollHorizontally="true" >
+    </EditText>
+
+    <EditText
         android:id="@+id/edtUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
